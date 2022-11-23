@@ -13,3 +13,6 @@ print(df)
 ## Locate Row
 #refer to the row index:
 print(df.loc[0])
+
+#use a list of indexes:
+print(df.loc[[0, 1]])
