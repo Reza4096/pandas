@@ -8,3 +8,9 @@ data = {
 df = pd.DataFrame(data, index = ["day1", "day2", "day3"])
 
 print(df)
+
+## Locate Named Indexes
+#refer to the named index:
+print(df.loc["day2"])
+#multiple index
+print(df.loc[["day1","day2"]])
