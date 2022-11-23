@@ -14,3 +14,5 @@ df = pd.DataFrame(
 
 print(df)
 print(df["Age"])
+print(df["Age"].max())
+print(df.describe())
