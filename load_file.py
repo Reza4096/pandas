@@ -9,3 +9,9 @@ print(df)
 
 #use to_string() to print the entire DataFrame.
 print(df.to_string()) 
+
+## load json
+
+df = pd.read_json("data.json")
+
+print(df.to_string())
