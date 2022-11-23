@@ -1,8 +1,16 @@
 import pandas as pd
 
-dataset = {
-  'cars': ["BMW", "Volvo", "Ford"],
-  'passings': [3, 7, 2]
-}
+df = pd.DataFrame(
+    {
+        "Name": [
+            "Braund, Mr. Owen Harris",
+            "Allen, Mr. William Henry",
+            "Bonnell, Miss. Elizabeth",
+        ],
+        "Age": [22, 35, 58],
+        "Sex": ["male", "male", "female"],
+    }
+)
 
-print(pd.DataFrame(dataset))
+print(df)
+print(df["Age"])
