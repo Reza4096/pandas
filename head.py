@@ -10,3 +10,6 @@ print(df.head())
 
 #The tail() method returns the headers and a specified number of rows, starting from the bottom.
 print(df.tail())
+
+#The DataFrames object has a method called info(), that gives you more information about the data set.
+print(df.info())
